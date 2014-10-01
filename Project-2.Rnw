@@ -1,0 +1,42 @@
+\documentclass{article}
+
+\title{Project 2 - CitiBike Data}
+\author{Matthew Miesle}
+
+\begin{document}
+This data was collected from the CitiBike website found on this page:
+http://www.citibikenyc.com/system-data
+The zipped file can be downloaded directly from this link:
+https://s3.amazonaws.com/tripdata/201402-citibike-tripdata.zip
+
+Number of Observations:
+    224,736
+
+Number of Attributes:
+    15
+
+Listing of attributes:
+    Trip Duration: continuous, integer (seconds)
+    Start Time and Date: continuous (YYYY-MM-DD HH:MM:SS)
+    Stop Time and Date: continuous (YYYY-MM-DD HH:MM:SS)
+    Start Station ID: integer
+    Start Station Name: string
+    End Station ID: integer
+    End Station Name: string
+    Start Station Latitude: numeric
+    Start Station Longitude: numeric
+    End Station Latitude: numeric
+    End Station Longitude: numeric
+    Bike ID: integer
+    User Type: categorical
+    Gender: categorical (0=unknown; 1=male; 2=female)
+    Year of Birth: continuous, integer
+
+Attribute Detail:
+
+<<>>=
+  
+@
+
+
+\end{document}
